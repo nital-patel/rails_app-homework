@@ -1,0 +1,2 @@
+class Churchofcage < ApplicationRecord
+ end

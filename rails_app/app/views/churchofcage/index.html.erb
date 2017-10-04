@@ -1,0 +1,12 @@
+<h1>Church of Cages</h2>
+
+
+ <% @churchofcages.each do |cage| %>
+     <div>
+         <h2><%= cage.cagealias %></h2>
+         <p><%= cage.scripture %></p>
+         <h3><%= cage.source %></h3>
+         <p><%= link_to "Link", churchofcage_path(id: cage.id)%></p>
+     </div>
+ <% end %>
+
